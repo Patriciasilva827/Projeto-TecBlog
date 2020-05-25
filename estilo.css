@@ -1,0 +1,174 @@
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+body{
+	
+}
+.row::after {
+
+  content: "";
+  clear: both;
+  display: table;
+ 
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #808080;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.menu li:hover {
+  background-color: #4d4d4d;
+}
+
+.aside {
+  background-color: #e6e6e6;
+  padding: 15px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.footer {
+  background-color: #f7b600;
+  color: #4e4e4e;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+/*inicio Layout do cabecalho*/
+
+#area-cabecalho{
+	background-color:#f7b600;
+	padding:15px;
+	text-align:center;
+}
+#area-logo, #area-menu{
+	padding:10px;
+	
+}
+/*Fim Layout do cabecalho*/
+
+
+/*Formatação do menu*/
+a{
+	text-decoration:none;
+	
+		
+}
+#leia-mais{
+	color:#f7b600;
+	padding:5px;	
+}
+#area-cabecalho a:link, #area-cabecalho a:visited{
+	color:#fff;
+	padding: 8px 12px;
+}
+#area-cabecalho a:hover{
+	color:#f7b600;
+	background:#fff;
+	
+}
+/*Formatação do Logo*/
+
+h1{
+	color:#4e4e4e;
+	font-size: 2.5em;
+}
+h3{
+	color:#4e4e4e;
+	
+}
+P{
+	padding:10px;
+}
+#branco{
+	color:white;
+}
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+/*Formatação das Postagens*/
+.postagens{
+	padding:20px;
+	margin-bottom:20px;
+	background:white;
+	
+}
+
+#data-postagem{
+	font-size:0.8em;
+	border-bottom:1px solid #f4f4f4;
+	padding-bottom:10px;
+	margin-bottom:10px;
+	display:block;
+}
+#lateral{
+	background:#808080;
+	color:#4e4e4e;
+	padding:5px;
+}
+#area-lateral{
+	padding:20px;
+}
